@@ -7,4 +7,3 @@ target/*
 /target
 
 generated/
-/src/main/webapp/vendors/
