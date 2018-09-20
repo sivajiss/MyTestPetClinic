@@ -4,16 +4,16 @@
 # https://docs.microsoft.com/vsts/pipelines/languages/java
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  vmImage: 'sivajitest1'
 
 steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.10'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: false
-    testResultsFiles: '**/TEST-*.xml'
+    #javaHomeOption: 'JDKVersion'
+    #jdkVersionOption: '1.10'
+    #jdkArchitectureOption: 'x64'
+    #publishJUnitResults: false
+    #testResultsFiles: '**/TEST-*.xml'
     goals: 'package'
