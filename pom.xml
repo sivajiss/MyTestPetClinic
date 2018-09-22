@@ -6,7 +6,7 @@
     <artifactId>spring-petclinic</artifactId>
     <version>4.2.6-SNAPSHOT</version>
 
-    <name>palak1-petclinic</name>
+    <name>palak12-petclinic</name>
     <packaging>war</packaging>
 
     <properties>
